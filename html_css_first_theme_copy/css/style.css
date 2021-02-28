@@ -1,0 +1,156 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.heroimage {
+   background-image: url(../images/computer_on_desk.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 70vh;
+}
+
+.herotext {
+   text-align: center;
+   font-family: sans-serif, arial;
+   color: white;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.herotext h2 {
+ text-transform: uppercase;
+ font-size: 23px;
+ opacity: 0.8;
+ font-weight: 100;
+}
+
+.herotext hr {
+ background: white;
+ border: white solid;
+ position: relative;
+ width: 6%;
+ height: 7px;
+ opacity: 0.8;
+}
+
+#herotext_hr_one {
+ top: 25px;
+ left: 35px;
+}
+
+#herotext_hr_two {
+ left: 328px;
+ top: 18px;
+ 
+}
+
+.herotext h1 {
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 50px;
+}
+
+.herotext p {
+   text-transform: capitalize;
+   font-weight: lighter;
+   opacity: 0.9;
+   margin: 5px 0 0 0;
+}
+
+.herotext button {
+   margin: 30px 0;
+   padding: 15px 25px;
+   color: white;
+   background: rgb(127, 190, 54);
+   border: none;
+   text-transform: capitalize;
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.footer-one {
+   background: white;
+   height: 15vh;
+   position: relative;
+}
+
+.footer-one img {
+   width: 80px;
+   position: absolute;
+   left: 20%;
+   top: 20%;
+}
+
+.footer-one a {
+   text-decoration: none;
+   text-transform: uppercase;
+   margin: 0 10px;
+   font-size: 10px;
+   color: black;
+   font-family: sans-serif;
+   font-weight: 600;
+   letter-spacing: -0.2px;
+}
+
+.categories {
+   text-align: center;
+   position: absolute;
+   left: 34%;
+   top: 50%;
+}
+
+.roundbuttons img {
+   height: 40px;
+   width: auto;
+}
+
+.footer-two {
+   background-color: rgba(0, 0, 0, 0.87);
+   height: 15vh;
+   position: relative;
+}
+
+.footer-two h1,
+p {
+   color: white;
+   font-family: sans-serif, arial;
+}
+
+.footer-two h1 {
+   font-weight: 50;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 30%;
+   font-size: 30px;
+}
+span {
+   font-weight: 800;
+}
+
+.footer-two p {
+   position: absolute;
+   bottom: 0%;
+   left: 0;
+   right: 0;
+   font-size: 13px;
+}
+
+.footer-two_text {
+   text-align: center;
+}
+.footer-two_text hr {
+   background: rgb(127, 190, 54);
+   border: rgb(127, 190, 54) solid;
+   position: absolute;
+   top: 75%;
+   width: 5%;
+   left: 47.5%;
+}
